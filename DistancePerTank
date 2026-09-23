@@ -1,0 +1,23 @@
+// this program is to calculate how far a car with a 20 gallon tank size can go in both a town and on a highway
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    const double TANK_SIZE = 20.0;
+    const double TOWN_MPG = 23.5;
+    const double HIGHWAY_MPG = 28.9;
+
+    double townDistance;
+    double highwayDistance;
+
+    townDistance = TANK_SIZE * TOWN_MPG;
+    highwayDistance = TANK_SIZE * HIGHWAY_MPG;
+
+    cout << "Distance in town: " << townDistance << " miles" << endl;
+    cout << "Distance on highway: " << highwayDistance << " miles" << endl;
+
+    return 0;
+}
