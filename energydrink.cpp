@@ -16,10 +16,11 @@ int main()
     citrusCustomers = energyDrinkCustomers * CITRUS_PERCENT;
 
     cout << "Customers who purchase energy drinks weekly: "
-         << static_cast<int>(energyDrinkCustomers) << endl;
+         << energyDrinkCustomers << endl;
 
     cout << "Customers who prefer citrus energy drinks: "
-         << static_cast<int>(citrusCustomers) << endl;
+         << citrusCustomers << endl;
 
     return 0;
 }
+
